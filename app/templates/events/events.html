@@ -1,7 +1,7 @@
 {% extends "page.html" %}
 {% block title %}Events | {{ super() }}{% endblock %}
 
-{% block header_image %}/static/img/hero/group.jpg{% endblock %}
+{% block header_image %}/static/img/new/devfest-friends.jpg{% endblock %}
 
 {% set num_triples_this_week = (events_this_week | length - 1) // 3 %}
 {% set events_in_triples_this_week = events_this_week[-3*num_triples_this_week:] %}
